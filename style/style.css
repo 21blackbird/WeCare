@@ -108,5 +108,185 @@ body {
 
 #penyakit:hover{
     color: rgb(0, 170, 255);
+}   
+
+.Article{
+    margin:50px ;
 }
+
+.image{
+    width: 100%;
+    height: auto;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 10px 12px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title h2{
+    color: #383F39;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 50% */
+    letter-spacing: 0.5px;
+}
+
+.title{
+    border-bottom: 4px solid #383F39; /* You can adjust the color and thickness according to your design */
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.Descriptions{
+    margin-top: 80px;
+    
+}
+
+.Descriptions h5{
+    color: #383F39;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+    margin-bottom: 80px;
+}
+
+.header {
+    margin-left: -50px;
+    margin-right: -50px;
+    width: auto;
+    height: 102px;
+    flex-shrink: 0;
+    background: #383F39;
+    box-shadow: 0px 9px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-between; /* Updated to space-between */
+    display: flex;
+    color: #fffcfc;
+}
+
+.header div {
+    margin-top: 35px;
+}
+
+.header .left {
+    justify-content: center;
+    align-items: center;
+    margin-left:300px
+}
+
+.header .right {
+    justify-content: center;
+    align-items: center;
+    margin-right:300px
+}
+
+.header a {
+    color: #fffcfc;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 50% */
+    letter-spacing: 0.5px;
+    
+}
+
+.Descriptions{
+    display: flex;
+    color: #383F39;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.Descriptions .left,
+.Descriptions .right {
+    flex: 1; /* Equal flex property to evenly divide the width */
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+/* Additional styling for better visualization */
+
+/* Remove unnecessary styling for <br> elements */
+
+.mengatasi{
+    margin-left: -50px;
+    margin-right: -50px;
+    width: auto;
+    height: 102px;
+    flex-shrink: 0;
+    background: #383F39;
+    box-shadow: 0px 9px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: center; /* Updated to space-between */
+    display: flex;
+    color: #fffcfc;
+    margin-top: 80px;
+}
+
+.mengatasi div {
+    margin-top: 35px;
+}
+
+.mengatasi a {
+    
+    color: #fffcfc;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 50% */
+    letter-spacing: 0.5px;
+    
+}
+
+.Descriptions h2{
+    color: #383F39;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 50% */
+    letter-spacing: 0.5px;
+}
+
+.Doctor{
+    justify-content: center;
+    display:grid;
+}
+
+.Doctor h2{
+    margin-top: 80px;
+    color: #383F39;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 50% */
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.Doctor div{
+    color: #383F39;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px; /* 100% */
+    letter-spacing: 0.5px;
+    margin-top:20px;
+}
+
+
 
