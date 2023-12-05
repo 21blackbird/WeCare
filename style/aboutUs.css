@@ -1,0 +1,32 @@
+body{
+    background-color: #F5F2F2;
+}
+
+h1,h2{
+    color: #333;
+}
+
+header{
+    text-align: center;
+    font-style: italic;
+}
+
+main{
+    text-align: center;
+    text-shadow: 1px;
+    font-family: sans-serif;
+    background-color: rgba(153, 205, 50, 0.322);
+    max-width: 650px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+p{
+    color: #333;
+}
+
+#content-p{
+    text-align: justify;
+}
